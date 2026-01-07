@@ -117,7 +117,6 @@ public class Student{
 	String driverPrefixURL="jdbc:oracle:thin:@";
 	String jdbc_url="artemis.vsnet.gmu.edu:1521/vse18c.vsnet.gmu.edu";
 	
-        // IMPORTANT: DO NOT PUT YOUR LOGIN INFORMATION HERE. INSTEAD, PROMPT USER FOR HIS/HER LOGIN/PASSWD
 
         System.out.print("Enter your Oracle username: ");
         String username = scanner.nextLine().trim();
